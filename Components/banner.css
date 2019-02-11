@@ -1,0 +1,15 @@
+#banner {
+  background: url('../Images/hero-bg.jpg') center no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#banner .overlay {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin: 0 175px;
+  background: url('../Images/phone.en.png') bottom -42px center no-repeat;
+  background-position: bottom -20px right 10px;
+  background-size: auto 450px;
+  height: auto;
+}
