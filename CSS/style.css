@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  padding: 10px 150px;
+}
+
+#navbar .logo {
+  font-size: 36px;
+  font-family: 'Indie Flower', cursive;
+}
+
+#banner {
+  background: url('../Images/hero-bg.jpg') center no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#banner .overlay {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin: 0 175px;
+  background: url('../Images/phone.en.png') bottom -42px center no-repeat;
+  background-position: bottom -20px right 10px;
+  background-size: auto 450px;
+  height: auto;
+}
+
+
+#service {
+  margin-right: 150px;
+  margin-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+#service .item {
+  color: #727070;
+}
+
+#service .item:hover {
+  background-color: #dad2c2;
+  text-decoration: none;
+}
+
+#service .item .img {
+  padding: 25px;
+}
+
+#how-work {
+  padding: 50px 175px;
+}
+
+#how-work .img {
+  width: 144px;
+  height: 144px;
+}
+
+#why-choose {
+  padding: 50px 175px;
+}
+
+#why-choose .img {
+  width: 144px;
+  height: 144px;
+}
+
+#footer {
+  background-color: #333;
+  color: #fafafa;
+  padding: 25px 100px;
+}
+
+#footer a {
+  color: #fafafa;
+}
